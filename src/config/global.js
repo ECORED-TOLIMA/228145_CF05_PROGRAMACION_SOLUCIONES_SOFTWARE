@@ -342,11 +342,6 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
