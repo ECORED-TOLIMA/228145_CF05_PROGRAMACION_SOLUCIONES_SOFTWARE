@@ -114,29 +114,29 @@
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img06.png', alt='')
+    p.mb-4 Estas características permiten:
     .row.justify-content-center.align-items-strench.mb-4
-      .col-lg-7.col-12.order-lg-2.order-2
-        p.mb-4(data-aos="fade-down") Estas características permiten:
+      .col-lg-6.col-12.order-lg-2.order-2
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Garantizar que cada módulo cumpla una función específica dentro del sistema.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Facilitar la comprensión del programa mediante la separación de responsabilidades.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Mejorar la organización del código y su estructura lógica.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Permitir la reutilización de módulos en diferentes contextos o soluciones.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Reducir errores al trabajar de forma independiente sobre cada módulo.
-        p.mb-0(data-aos="fade-down") El proceso para definir las características funcionales de los módulos es el siguiente:
-      .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure.mb-0
           img(src='@/assets/curso/tema5/img08.svg', alt='')
+    p.mb-4 El proceso para definir las características funcionales de los módulos es el siguiente:
     .row.BG04.justify-content-center.px-md-5.px-4.mb-4
       .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
@@ -344,7 +344,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/OgkuLWU47Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/HPzMCrXhrf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Parámetros de entrada y salida en los módulos

@@ -286,16 +286,16 @@
         p.mb-4(data-aos="fade-down") El uso correcto de los tipos de datos permite:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Evitar errores en operaciones matemáticas o lógicas.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Optimizar el uso de memoria del sistema.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Garantizar la coherencia en el procesamiento de información.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Facilitar la comprensión y mantenimiento del código.
         p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados de tipología de datos, se recomienda revisar el siguiente video, en el cual se muestra la ejecución de un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la visualización de resultados, facilitando la comprensión práctica del uso de distintos tipos de datos dentro de un programa:   
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
@@ -305,7 +305,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/JbJgscEGdU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/VBffPGz3gY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Operadores y jerarquía de operadores

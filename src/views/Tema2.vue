@@ -196,7 +196,7 @@
               p.mb-0 Conectan los símbolos y muestran la dirección del proceso.
           .row(numero="6" titulo="Conectores")
             .col-12.mb-4.mb-md-0
-              p.mb-0 facilitan la continuidad del diagrama cuando este se extiende o se divide.
+              p.mb-0 Facilitan la continuidad del diagrama cuando este se extiende o se divide.
       .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema2/img16.png', alt='')
