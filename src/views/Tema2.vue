@@ -214,7 +214,7 @@
         figure.movil
           img(src='@/assets/curso/tema2/img18.svg', alt='Figura 1 que presenta un diagrama de flujo con los símbolos estandarizados utilizados en el diseño de algoritmos, incluyendo el símbolo terminal (inicio y fin), procesos, entrada y salida de datos, decisiones, líneas de flujo y conectores, organizados de manera secuencial para ilustrar el recorrido lógico y la toma de decisiones dentro de un procedimiento.')
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-12
+      .col.col-lg-10
         .cajon.cajon.C07.px-4.py-3
           p.mb-0(data-aos="fade-down") El uso adecuado de diagramas de flujo permite estructurar algoritmos de forma visual, ordenada y comprensible, contribuyendo a una mejor planificación de soluciones y facilitando su posterior implementación en un lenguaje de programación.
     separador
