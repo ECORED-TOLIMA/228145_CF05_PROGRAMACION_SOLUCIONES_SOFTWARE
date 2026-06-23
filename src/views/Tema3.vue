@@ -273,7 +273,7 @@
         figure.mb-0
           img(src='@/assets/curso/tema3/img19.png', alt='')
     .row.justify-content-center.align-items-strench.mb-4
-      .col-lg-6.col-12.order-lg-1.order-2
+      .col-lg-7.col-12.order-lg-1.order-2
         .row.justify-content-center.mb-4
           .col.col-12
             .row.align-items-center(data-aos="flip-down")
@@ -298,7 +298,7 @@
             i.fas.fa-computer
             p.mb-0 Facilitar la comprensión y mantenimiento del código.
         p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados de tipología de datos, se recomienda revisar el siguiente video, en el cual se muestra la ejecución de un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la visualización de resultados, facilitando la comprensión práctica del uso de distintos tipos de datos dentro de un programa:   
-      .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-3.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure.mb-0
           img(src='@/assets/curso/tema3/img20.svg', alt='')
     .row.justify-content-center.align-items-center           
