@@ -51,7 +51,7 @@ export default {
             titulo: 'Lógica matemática y lógica proposicional',
             hash: 't_1_4',
           },
-          { numero: '1.5', titulo: 'Tipo de algoritmos', hash: 't_1_5' },
+          { numero: '1.5', titulo: 'Tipos de algoritmos', hash: 't_1_5' },
         ],
       },
       {

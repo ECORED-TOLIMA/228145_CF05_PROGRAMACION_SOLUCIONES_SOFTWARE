@@ -459,6 +459,36 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
   @media screen and ( max-width: $bp-max-sm )
     left: -4%
 
+@media (min-width: 992px) and (max-width: 1500px)
+  .titulo01-importancia
+    width: auto !important
+    max-width: none !important
+    flex: 0 0 auto !important
+    display: flex !important
+    align-items: center !important
+    left: -2% !important
+
+    .p-2
+      width: auto !important
+      white-space: nowrap !important
+
+    h3
+      white-space: nowrap !important
+      font-size: 1.15rem !important
+      line-height: 1.2 !important
+
+@media (min-width: 992px) and (max-width: 1500px)
+  .titulo01-importancia
+    &::before
+      content: none
+
+  .titulo01-importancia
+    margin-top: 0 !important
+
+  .row.align-items-center:has(.titulo01-importancia)
+    align-items: center !important
+    flex-wrap: nowrap !important
+
 .bloque-c07-ajuste
   --bs-gutter-x: 0
   max-width: 980px

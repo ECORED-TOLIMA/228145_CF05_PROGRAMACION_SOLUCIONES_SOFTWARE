@@ -204,23 +204,23 @@
                     th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
                 tbody
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Entero (int)]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Entero (int)
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa números sin decimales.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") 10, -5, 0
                   tr
-                    td(data-aos="fade-down") #[b Real (float/double)]
+                    td(data-aos="fade-down") Real (float/double)
                     td(data-aos="fade-down") Representa números con decimales.
                     td(data-aos="fade-down") 3.14, -2.5
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Booleano (bool)]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Booleano (bool)
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa valores lógicos.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Verdadero / Falso
                   tr
-                    td(data-aos="fade-down") #[b Carácter (char)]
+                    td(data-aos="fade-down") Carácter (char)
                     td(data-aos="fade-down") Representa un solo símbolo.
                     td(data-aos="fade-down") 'A', '9'
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Cadena (string)]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Cadena (string)
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa texto o conjunto de caracteres.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") "Hola mundo"
         p.mb-4(data-aos="fade-down") Para un mejor entendimiento de esta clasificación de datos, se representan de la siguiente manera:
@@ -280,7 +280,7 @@
               .col-auto.pe-0(style="z-index:2")
                 figure
                   img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-              .col-lg-auto.col-9.titulo01(style="z-index:1")
+              .col-lg-auto.col-9.titulo01.titulo01-importancia(style="z-index:1")
                 .p-2
                   h3.mb-0.ms-lg-1.ms-3 Importancia del uso adecuado de tipos de datos
         p.mb-4(data-aos="fade-down") El uso correcto de los tipos de datos permite:
@@ -319,7 +319,7 @@
     p.mb-4(data-aos="fade-down") La siguiente es una explicación puntual de tipos de operadores:
     .row.justify-content-center.mb-4
       .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
               img(src='@/assets/curso/tema3/img22.svg' alt="")

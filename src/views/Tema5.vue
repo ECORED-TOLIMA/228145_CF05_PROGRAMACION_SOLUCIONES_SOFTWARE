@@ -235,23 +235,23 @@
                     th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
                 tbody
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Error lógico]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error lógico
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") El algoritmo se ejecuta, pero el resultado es incorrecto.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Fórmula mal planteada.
                   tr
-                    td(data-aos="fade-down") #[b Error de sintaxis]
+                    td(data-aos="fade-down") Error de sintaxis
                     td(data-aos="fade-down") Incorrecta escritura de instrucciones (en programación).
                     td(data-aos="fade-down") Falta de símbolos.
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Error de ejecución]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de ejecución
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Ocurre durante la ejecución del algoritmo.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") División por cero.
                   tr
-                    td(data-aos="fade-down") #[b Error de datos]
+                    td(data-aos="fade-down") Error de datos
                     td(data-aos="fade-down") Datos de entrada incorrectos o no validados.
                     td(data-aos="fade-down") Ingresar texto en lugar de número.
                   tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Error de flujo]
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de flujo
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Mala organización del orden de instrucciones.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Saltos incorrectos en el algoritmo.
     .row.justify-content-center.align-items-center.mb-4.bloque-c07-ajuste

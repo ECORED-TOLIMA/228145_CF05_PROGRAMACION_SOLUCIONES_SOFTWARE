@@ -219,7 +219,7 @@
           p.mb-0(data-aos="fade-down") En el contexto de la programación, la lógica matemática y proposicional permite estructurar condiciones, validar decisiones y controlar el flujo de ejecución de los algoritmos. De esta manera, se convierte en un componente esencial para garantizar que las soluciones desarrolladas sean correctas, consistentes y alineadas con los requerimientos planteados.
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.5 Tipo de algoritmos
+      h2 1.5 Tipos de algoritmos
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0.d-none.d-lg-block
         figure
