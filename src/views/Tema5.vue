@@ -261,20 +261,17 @@
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C07.px-4.py-3
           p.mb-0(data-aos="fade-down") Igualmente, se relaciona un diagrama de fujo sobre la detección de errores y con ello se puede apreciar de manera directa el debido accionar ante un acontecimiento real:
-    .row.justify-content-center.mb-4
-      .col.col-lg-12.col-12
-        .row.justify-content-center.mb-4(data-aos="flip-up")
-          .col.col-12
-            .titulo-sexto.color-primario
-              h5 Figura 4.
-              span Proceso de detección de errores en algoritmos
-          .row.justify-content-center
-            .col-12
-              figure.desktop
-                img(src='@/assets/curso/tema5/img13.svg', alt='Figura 4 que muestra un diagrama de flujo del proceso para arrancar un vehículo, donde se representan de forma secuencial acciones como insertar la llave, ubicar el cambio en punto muerto y girar la llave, junto con una decisión que evalúa si el motor arranca, derivando en acciones alternativas como poner el cambio en primera o llamar al mecánico hasta llegar al fin del proceso.')
-          .col-12
-            figure.movil
-              img(src='@/assets/curso/tema5/img14.svg', alt='Figura 4 que muestra un diagrama de flujo del proceso para arrancar un vehículo, donde se representan de forma secuencial acciones como insertar la llave, ubicar el cambio en punto muerto y girar la llave, junto con una decisión que evalúa si el motor arranca, derivando en acciones alternativas como poner el cambio en primera o llamar al mecánico hasta llegar al fin del proceso.')
+    .row.justify-content-center.mb-4.figura-flujo-ajuste(data-aos="flip-up")
+      .col-lg-12.col-12
+        .titulo-sexto.color-primario
+          h5 Figura 4.
+          span Proceso de detección de errores en algoritmos
+      .col-12
+        figure.desktop.mb-0
+          img(src='@/assets/curso/tema5/img13.svg', alt='Figura 4 que muestra un diagrama de flujo del proceso para arrancar un vehículo, donde se representan de forma secuencial acciones como insertar la llave, ubicar el cambio en punto muerto y girar la llave, junto con una decisión que evalúa si el motor arranca, derivando en acciones alternativas como poner el cambio en primera o llamar al mecánico hasta llegar al fin del proceso.')
+      .col-12
+        figure.movil.mb-0
+          img(src='@/assets/curso/tema5/img14.svg', alt='Figura 4 que muestra un diagrama de flujo del proceso para arrancar un vehículo, donde se representan de forma secuencial acciones como insertar la llave, ubicar el cambio en punto muerto y girar la llave, junto con una decisión que evalúa si el motor arranca, derivando en acciones alternativas como poner el cambio en primera o llamar al mecánico hasta llegar al fin del proceso.')
     p.mb-4(data-aos="fade-down") A continuación, se presenta un análisis sobre los errores más comunes que pueden surgir durante el diseño y desarrollo de algoritmos. Comprender sus causas y consecuencias resulta fundamental para mejorar la lógica de programación y la calidad del <em>software</em>. Asimismo, se proponen estrategias prácticas que contribuyen a prevenir fallos, optimizar el proceso de desarrollo y garantizar resultados correctos y confiables:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-12
