@@ -63,34 +63,35 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
           span Elementos fundamentales de la programación modular
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th(data-aos="fade-down")(style= "width: 30%; background-color: #FFEEBC;") Elemento
-                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Descripción
-                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
-            tbody
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Módulo
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Unidad funcional que realiza una tarea específica dentro del programa.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un módulo calcula el promedio de notas de un estudiante.
-              tr
-                td(data-aos="fade-down") Independencia funcional
-                td(data-aos="fade-down") Cada módulo debe cumplir una función definida sin depender excesivamente de otros.
-                td(data-aos="fade-down") El módulo de cálculo funciona sin depender del módulo de entrada de datos.
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Interfaz de comunicación
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Define cómo los módulos intercambian información mediante parámetros de entrada y salida.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un módulo recibe dos números y devuelve el resultado de la operación.
-              tr
-                td(data-aos="fade-down") Reutilización
-                td(data-aos="fade-down") Permite utilizar módulos en diferentes programas o contextos sin necesidad de rediseñarlos.
-                td(data-aos="fade-down") El mismo módulo de validación se usa en varios programas.
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Mantenibilidad
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Facilita la modificación y corrección del código sin afectar todo el sistema.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Se corrige un módulo sin modificar el resto del sistema.
+        .tabla-a.color-acento-contenido.config-tabla
+          .tabla-a
+            table
+              thead
+                tr
+                  th(data-aos="fade-down") Elemento
+                  th(data-aos="fade-down") Descripción
+                  th(data-aos="fade-down") Ejemplo
+              tbody
+                tr
+                  td(data-aos="fade-down") Módulo
+                  td(data-aos="fade-down") Unidad funcional que realiza una tarea específica dentro del programa.
+                  td(data-aos="fade-down") Un módulo calcula el promedio de notas de un estudiante.
+                tr
+                  td(data-aos="fade-down") Independencia funcional
+                  td(data-aos="fade-down") Cada módulo debe cumplir una función definida sin depender excesivamente de otros.
+                  td(data-aos="fade-down") El módulo de cálculo funciona sin depender del módulo de entrada de datos.
+                tr
+                  td(data-aos="fade-down") Interfaz de comunicación
+                  td(data-aos="fade-down") Define cómo los módulos intercambian información mediante parámetros de entrada y salida.
+                  td(data-aos="fade-down") Un módulo recibe dos números y devuelve el resultado de la operación.
+                tr
+                  td(data-aos="fade-down") Reutilización
+                  td(data-aos="fade-down") Permite utilizar módulos en diferentes programas o contextos sin necesidad de rediseñarlos.
+                  td(data-aos="fade-down") El mismo módulo de validación se usa en varios programas.
+                tr
+                  td(data-aos="fade-down") Mantenibilidad
+                  td(data-aos="fade-down") Facilita la modificación y corrección del código sin afectar todo el sistema.
+                  td(data-aos="fade-down") Se corrige un módulo sin modificar el resto del sistema.
     .row.justify-content-center.align-items-center.mb-0.bloque-c07-ajuste
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -101,7 +102,7 @@
     separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.2 Características de los módulos según funcionalidad
-    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-c10-ajuste
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.recurso-c10-ajuste
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C10.p-4.h-100.w-100
           p.mb-4 Las características de los módulos según su funcionalidad permiten definir cómo se organizan, interactúan y cumplen su propósito dentro de un programa. Estas características garantizan que cada módulo aporte de manera específica a la solución general, facilitando la claridad, el orden y la eficiencia en el desarrollo de algoritmos.
@@ -114,9 +115,9 @@
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img06.png', alt='')
-    p.mb-4 Estas características permiten:
-    .row.justify-content-center.align-items-strench.mb-4
-      .col-lg-6.col-12.order-lg-2.order-2
+    .row.justify-content-center.align-items-strench.mb-5
+      .col-lg-7.col-12.order-lg-2.order-2
+        p Estas características permiten:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
             i.fas.fa-computer
@@ -133,10 +134,10 @@
           li
             i.fas.fa-computer
             p.mb-0 Reducir errores al trabajar de forma independiente sobre cada módulo.
-      .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+        p El proceso para definir las características funcionales de los módulos es el siguiente:
+      .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure.mb-0
           img(src='@/assets/curso/tema5/img08.svg', alt='')
-    p.mb-4 El proceso para definir las características funcionales de los módulos es el siguiente:
     .row.BG04.justify-content-center.px-md-5.px-4.mb-4
       .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
@@ -146,7 +147,7 @@
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Determinar la tarea específica que debe cumplir.
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Delimitar su responsabilidad dentro del algoritmo.
           .row(numero="2" titulo="Definir entradas y salidas")
@@ -226,34 +227,35 @@
             .titulo-sexto.color-acento-contenido
               h5 Tabla 5.
               span Tipos de errores comunes en algoritmos
-            .tabla-a.color-acento-contenido
-              table
-                thead
-                  tr
-                    th(data-aos="fade-down")(style= "width: 30%; background-color: #FFEEBC;") Tipo de error
-                    th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Descripción
-                    th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
-                tbody
-                  tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error lógico
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") El algoritmo se ejecuta, pero el resultado es incorrecto.
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Fórmula mal planteada.
-                  tr
-                    td(data-aos="fade-down") Error de sintaxis
-                    td(data-aos="fade-down") Incorrecta escritura de instrucciones (en programación).
-                    td(data-aos="fade-down") Falta de símbolos.
-                  tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de ejecución
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Ocurre durante la ejecución del algoritmo.
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") División por cero.
-                  tr
-                    td(data-aos="fade-down") Error de datos
-                    td(data-aos="fade-down") Datos de entrada incorrectos o no validados.
-                    td(data-aos="fade-down") Ingresar texto en lugar de número.
-                  tr
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de flujo
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Mala organización del orden de instrucciones.
-                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Saltos incorrectos en el algoritmo.
+            .tabla-a.color-acento-contenido.config-tabla
+              .tabla-a
+                table
+                  thead
+                    tr
+                      th(data-aos="fade-down") Tipo de error
+                      th(data-aos="fade-down") Descripción
+                      th(data-aos="fade-down") Ejemplo
+                  tbody
+                    tr
+                      td(data-aos="fade-down") Error lógico
+                      td(data-aos="fade-down") El algoritmo se ejecuta, pero el resultado es incorrecto.
+                      td(data-aos="fade-down") Fórmula mal planteada.
+                    tr
+                      td(data-aos="fade-down") Error de sintaxis
+                      td(data-aos="fade-down") Incorrecta escritura de instrucciones (en programación).
+                      td(data-aos="fade-down") Falta de símbolos.
+                    tr
+                      td(data-aos="fade-down") Error de ejecución
+                      td(data-aos="fade-down") Ocurre durante la ejecución del algoritmo.
+                      td(data-aos="fade-down") División por cero.
+                    tr
+                      td(data-aos="fade-down") Error de datos
+                      td(data-aos="fade-down") Datos de entrada incorrectos o no validados.
+                      td(data-aos="fade-down") Ingresar texto en lugar de número.
+                    tr
+                      td(data-aos="fade-down") Error de flujo
+                      td(data-aos="fade-down") Mala organización del orden de instrucciones.
+                      td(data-aos="fade-down") Saltos incorrectos en el algoritmo.
     .row.justify-content-center.align-items-center.mb-4.bloque-c07-ajuste
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -263,7 +265,7 @@
           p.mb-0(data-aos="fade-down") Igualmente, se relaciona un diagrama de fujo sobre la detección de errores y con ello se puede apreciar de manera directa el debido accionar ante un acontecimiento real:
     .row.justify-content-center.mb-4.figura-flujo-ajuste(data-aos="flip-up")
       .col-lg-12.col-12
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span Proceso de detección de errores en algoritmos
       .col-12
@@ -396,22 +398,22 @@
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/tema5/img24.svg", alt="alt")
+                  img(src="@/assets/curso/tema5/img24.svg", alt="")
               p.text-center Identificación de los datos requeridos por el módulo y establecimiento de los valores iniciales.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/tema5/img25.svg", alt="alt")
+                  img(src="@/assets/curso/tema5/img25.svg", alt="")
               p.text-center Ejecución de las instrucciones del módulo y transformación de los datos de entrada.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/tema5/img26.svg", alt="alt")
+                  img(src="@/assets/curso/tema5/img26.svg", alt="")
               p.text-center Obtención de resultados a partir del procesamiento y preparación de los datos para ser retornados.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/tema5/img28.svg", alt="alt")
+                  img(src="@/assets/curso/tema5/img28.svg", alt="")
               p.text-center Envío de resultados al módulo principal u otros módulos y continuidad del flujo del programa.
     p.mb-0(data-aos="fade-down") La correcta definición y gestión de los parámetros de entrada y salida permite construir programas más organizados, coherentes y funcionales, asegurando una adecuada comunicación entre módulos y facilitando el desarrollo de soluciones eficientes en programación.
     separador
@@ -429,7 +431,7 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .tarjeta--container.row
-          .col-xl.col-lg-6.tarjeta.tarjeta--C12.p-5
+          .col-xl.col-lg-6.tarjeta.tarjeta--C14.p-5
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")
@@ -443,7 +445,7 @@
                   img(src='@/assets/curso/tema5/img32.svg', alt='')(style="width: 85%")
             h4.text-center B. Ejecución paso a paso
             p.mb-0(data-aos="fade-down") Seguimiento detallado de cada instrucción del algoritmo, registrando los cambios en las variables en cada etapa del proceso.
-          .col-xl.col-lg-6.tarjeta.tarjeta--C14.p-5
+          .col-xl.col-lg-6.tarjeta.tarjeta--C12.p-5
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")

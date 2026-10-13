@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/img01.jpg', alt='')
+          img(src='@/assets/curso/tema2/img01.png', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C02.color-primario.p-4.mb-4
           p.mb-0(data-aos="fade-down") Estas metodologías no se limitan a la simple escritura de instrucciones, sino que implican un proceso organizado que inicia con el análisis del problema y culmina con la validación de la solución propuesta. A través de ellas, se promueve el uso de herramientas y técnicas que permiten representar, evaluar y optimizar algoritmos antes de su implementación en un lenguaje de programación.
@@ -44,7 +44,7 @@
             .p-4
               p.mb-0 Mientras que el diseño permite definir la secuencia de pasos que darán forma al algoritmo.
               br
-    .row.justify-content-center.align-items-center.mb-4.bloque-c07-ajuste.bloque-c07-sin-img-responsive
+    .row.justify-content-center.align-items-center.mb-4.bloque-c08-ajuste.bloque-c08-sin-img-responsive
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema2/img05.svg', alt='')
@@ -59,38 +59,39 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span Enfoques metodológicos para el análisis y diseño de algoritmos
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th(data-aos="fade-down")(style= "width: 30%; background-color: #FFEEBC;") Metodología
-                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Descripción
-                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
-            tbody
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Descomposición del problema]
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Consiste en dividir un problema complejo en partes más simples para facilitar su comprensión y solución.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un sistema de ventas se divide en registro de clientes, productos, pagos y facturación.
-              tr
-                td(data-aos="fade-down") <b>Diseño descendente (<em>top-down</em>)</b>
-                td(data-aos="fade-down") Inicia desde una visión general del problema y se descompone progresivamente en subprocesos más detallados.
-                td(data-aos="fade-down") Se define primero “calcular promedio final” y luego se descompone en ingreso de notas, cálculo y resultado.
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") <b>Diseño ascendente (<em>bottom-up</em>)</b>
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Construye la solución a partir de componentes básicos que se integran para formar un sistema completo.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Se crean funciones básicas (sumar, contar, promediar) y luego se integran en un sistema completo.
-              tr
-                td(data-aos="fade-down") #[b Refinamiento progresivo]
-                td(data-aos="fade-down") Mejora gradual del algoritmo, pasando de una idea general a una solución más detallada y precisa.
-                td(data-aos="fade-down") Un algoritmo inicia de forma general y se detalla paso a paso hasta incluir validaciones y excepciones.
-              tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") #[b Abstracción]
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Permite enfocarse en los aspectos relevantes del problema, omitiendo detalles innecesarios en las primeras etapas del diseño.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un cajero automático se diseña considerando acciones generales como retirar o consultar saldo, sin detalles internos.
-              tr
-                td(data-aos="fade-down") #[b Modularización]
-                td(data-aos="fade-down") Organiza la solución en módulos independientes que facilitan la comprensión, mantenimiento y reutilización del algoritmo.
-                td(data-aos="fade-down") Un sistema académico se organiza en módulos independientes como matrícula, notas y reportes.
+        .tabla-a.color-acento-contenido.config-tabla
+          .tabla-a
+            table
+              thead
+                tr
+                  th(data-aos="fade-down") Metodología
+                  th(data-aos="fade-down") Descripción
+                  th(data-aos="fade-down") Ejemplo
+              tbody
+                tr
+                  td(data-aos="fade-down") #[b Descomposición del problema]
+                  td(data-aos="fade-down") Consiste en dividir un problema complejo en partes más simples para facilitar su comprensión y solución.
+                  td(data-aos="fade-down") Un sistema de ventas se divide en registro de clientes, productos, pagos y facturación.
+                tr
+                  td(data-aos="fade-down") <b>Diseño descendente (<em>top-down</em>)</b>
+                  td(data-aos="fade-down") Inicia desde una visión general del problema y se descompone progresivamente en subprocesos más detallados.
+                  td(data-aos="fade-down") Se define primero “calcular promedio final” y luego se descompone en ingreso de notas, cálculo y resultado.
+                tr
+                  td(data-aos="fade-down") <b>Diseño ascendente (<em>bottom-up</em>)</b>
+                  td(data-aos="fade-down") Construye la solución a partir de componentes básicos que se integran para formar un sistema completo.
+                  td(data-aos="fade-down") Se crean funciones básicas (sumar, contar, promediar) y luego se integran en un sistema completo.
+                tr
+                  td(data-aos="fade-down") #[b Refinamiento progresivo]
+                  td(data-aos="fade-down") Mejora gradual del algoritmo, pasando de una idea general a una solución más detallada y precisa.
+                  td(data-aos="fade-down") Un algoritmo inicia de forma general y se detalla paso a paso hasta incluir validaciones y excepciones.
+                tr
+                  td(data-aos="fade-down") #[b Abstracción]
+                  td(data-aos="fade-down") Permite enfocarse en los aspectos relevantes del problema, omitiendo detalles innecesarios en las primeras etapas del diseño.
+                  td(data-aos="fade-down") Un cajero automático se diseña considerando acciones generales como retirar o consultar saldo, sin detalles internos.
+                tr
+                  td(data-aos="fade-down") #[b Modularización]
+                  td(data-aos="fade-down") Organiza la solución en módulos independientes que facilitan la comprensión, mantenimiento y reutilización del algoritmo.
+                  td(data-aos="fade-down") Un sistema académico se organiza en módulos independientes como matrícula, notas y reportes.
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
         .cajon.cajon.C07.px-4.py-3
@@ -203,7 +204,7 @@
     p.mb-4(data-aos="fade-down") Para una mejor comprensión, se relaciona la estructura de un diagrama de flujo con los elementos mencionados:
     .row.justify-content-center.mb-4.figura-flujo-ajuste(data-aos="flip-up")
       .col-lg-12.col-12
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Símbolos en diagramas de flujo
       .col-12
@@ -213,17 +214,17 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img18.svg', alt='En la figura 1 se presentan los principales símbolos utilizados en los diagramas de flujo: terminal (inicio), proceso, entrada/salida, decisión y conectores. Los símbolos se encuentran unidos mediante líneas de flujo con dirección definida, presentando una secuencia que inicia en el terminal, continúa por un proceso y una entrada/salida, pasa por una decisión con las opciones Sí y No, y finaliza en los conectores identificados como A y B.')
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-10
+      .col.col-lg-12
         .cajon.cajon.C07.px-4.py-3
           p.mb-0(data-aos="fade-down") El uso adecuado de diagramas de flujo permite estructurar algoritmos de forma visual, ordenada y comprensible, contribuyendo a una mejor planificación de soluciones y facilitando su posterior implementación en un lenguaje de programación.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Herramientas para la creación y prueba de algoritmos
     .row.justify-content-center.mb-4
-      .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/img19.jpg', alt='')
-      .col.col-lg-9.col-12.order-lg-2.order-2
+          img(src='@/assets/curso/tema2/img19.png', alt='')
+      .col.col-lg-8.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Las herramientas para la creación y prueba de algoritmos constituyen un apoyo fundamental en el proceso de diseño, validación y optimización de soluciones lógicas. Estas permiten transformar ideas en representaciones estructuradas, facilitando la verificación del funcionamiento del algoritmo antes de su implementación en un lenguaje de programación.
         .cajon.cajon.C02.color-primario.px-4.py-3.mb-0
           p.mb-0(data-aos="fade-down") Su utilización no solo contribuye a mejorar la claridad y organización de los algoritmos, sino que también permite identificar errores, evaluar la lógica planteada y asegurar que los resultados obtenidos sean coherentes con los objetivos definidos. De esta manera, se fortalece el proceso de desarrollo, reduciendo fallos y mejorando la calidad de las soluciones.
@@ -276,7 +277,7 @@
         figure
           img(src='@/assets/curso/tema2/img23.svg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
-        .cajon.cajon.C09.p-4
+        .cajon.cajon.C11.p-4
           p.mb-0(data-aos="fade-down") La adecuada selección y uso de estas herramientas permite fortalecer el proceso de construcción de algoritmos, asegurando soluciones más precisas, funcionales y alineadas con los requerimientos planteados, facilitando su transición hacia el desarrollo de <em>software</em>.
 </template>
 
