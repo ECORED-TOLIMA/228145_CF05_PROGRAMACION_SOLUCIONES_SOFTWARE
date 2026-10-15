@@ -118,17 +118,17 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Variables, constantes, contadores y acumuladores
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img13.png', alt='')
-      .col.col-lg-7.col-12.order-lg-2.order-2
+          img(src='@/assets/curso/tema3/img13.jpg', alt='')
+      .col.col-lg-8.col-12.order-lg-2.order-2
         .row.mb-4
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema3/img14.svg', alt='')
           .col-lg-10.col-12
             p.mb-0 Son elementos fundamentales en la programación, ya que permiten gestionar y manipular la información durante la ejecución de un algoritmo. Su adecuada utilización es clave para controlar el flujo de datos, realizar operaciones y obtener resultados coherentes dentro de una solución computacional.
-        .cajon.cajon.C07.color-secundario.p-4.mb-4
+        .cajon.cajon.C01.color-secundario.p-4.mb-4
           p.mb-0(data-aos="fade-down") Estos elementos cumplen funciones específicas dentro del programa y facilitan la organización lógica de los datos, permitiendo almacenar, actualizar y procesar información de acuerdo con las necesidades del problema planteado.        
     p.mb-4 Para su correcta aplicación, se requiere considerar las siguientes características:
     .row.justify-content-center.mb-4(data-aos="flip-up")
@@ -136,31 +136,30 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
           span Elementos de almacenamiento y control de datos en programación
-        .tabla-a.color-acento-contenido.config-tabla
-          .tabla-a
-            table
-              thead
-                tr
-                  th(data-aos="fade-down") Elemento
-                  th(data-aos="fade-down") Descripción
-                  th(data-aos="fade-down") Ejemplo
-              tbody
-                tr
-                  td(data-aos="fade-down") #[b Variables]
-                  td(data-aos="fade-down") Espacios de memoria que almacenan datos que pueden cambiar durante la ejecución del programa.
-                  td(data-aos="fade-down") Una variable almacena la edad del usuario y cambia cuando se ingresa un nuevo valor.
-                tr
-                  td(data-aos="fade-down") #[b Constantes]
-                  td(data-aos="fade-down") Valores fijos que no se modifican a lo largo del proceso, garantizando estabilidad en ciertas operaciones.
-                  td(data-aos="fade-down") El valor de IVA se define como constante para que no se modifique durante el cálculo.
-                tr
-                  td(data-aos="fade-down") #[b Contadores]
-                  td(data-aos="fade-down") Variables utilizadas para llevar el registro del número de veces que ocurre un evento o se ejecuta una acción, generalmente incrementándose de forma secuencial.
-                  td(data-aos="fade-down") Un contador registra cuántos estudiantes han sido procesados en un ciclo.
-                tr
-                  td(data-aos="fade-down") #[b Acumuladores]
-                  td(data-aos="fade-down") Variables que permiten sumar o integrar valores de manera progresiva, almacenando resultados parciales durante la ejecución del algoritmo.
-                  td(data-aos="fade-down") Un acumulador suma las calificaciones para calcular el promedio final.
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr
+                th(data-aos="fade-down")(style= "width: 30%; background-color: #FFEEBC;") Elemento
+                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Descripción
+                th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
+            tbody
+              tr
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Variables
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Espacios de memoria que almacenan datos que pueden cambiar durante la ejecución del programa.
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Una variable almacena la edad del usuario y cambia cuando se ingresa un nuevo valor.
+              tr
+                td(data-aos="fade-down") Constantes
+                td(data-aos="fade-down") Valores fijos que no se modifican a lo largo del proceso, garantizando estabilidad en ciertas operaciones.
+                td(data-aos="fade-down") El valor de IVA se define como constante para que no se modifique durante el cálculo.
+              tr
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Contadores
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Variables utilizadas para llevar el registro del número de veces que ocurre un evento o se ejecuta una acción, generalmente incrementándose de forma secuencial.
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un contador registra cuántos estudiantes han sido procesados en un ciclo.
+              tr
+                td(data-aos="fade-down") Acumuladores
+                td(data-aos="fade-down") Variables que permiten sumar o integrar valores de manera progresiva, almacenando resultados parciales durante la ejecución del algoritmo.
+                td(data-aos="fade-down") Un acumulador suma las calificaciones para calcular el promedio final.
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
@@ -178,7 +177,7 @@
         figure
           img(src='@/assets/curso/tema3/img16.png', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
-        .cajon.cajon.C07.color-secundario.p-4.mb-4
+        .cajon.cajon.C01.color-secundario.p-4.mb-4
           p.mb-0(data-aos="fade-down") En términos generales, los tipos de datos determinan qué tipo de valores puede contener una variable y qué operaciones pueden realizarse sobre ella. Esto permite que el programa interprete correctamente la información y ejecute las instrucciones de manera adecuada.
         p.mb-0(data-aos="fade-down") A diferencia de otros elementos de la programación, los tipos de datos no solo organizan la información, sino que también influyen directamente en el comportamiento del algoritmo, especialmente en operaciones matemáticas, comparaciones y toma de decisiones.
     .row.justify-content-center.mb-4
@@ -196,46 +195,46 @@
             .titulo-sexto.color-acento-contenido
               h5 Tabla 3.
               span Clasificación de los tipos de datos básicos
-            .tabla-a.color-acento-contenido.config-tabla
-              .tabla-a
-                table
-                  thead
-                    tr
-                      th(data-aos="fade-down") Tipo de dato
-                      th(data-aos="fade-down") Descripción
-                      th(data-aos="fade-down") Ejemplo
-                  tbody
-                    tr
-                      td(data-aos="fade-down") Entero (int)
-                      td(data-aos="fade-down") Representa números sin decimales.
-                      td(data-aos="fade-down") 10, -5, 0
-                    tr
-                      td(data-aos="fade-down") Real (float/double)
-                      td(data-aos="fade-down") Representa números con decimales.
-                      td(data-aos="fade-down") 3.14, -2.5
-                    tr
-                      td(data-aos="fade-down") Booleano (bool)
-                      td(data-aos="fade-down") Representa valores lógicos.
-                      td(data-aos="fade-down") Verdadero / Falso
-                    tr
-                      td(data-aos="fade-down") Carácter (char)
-                      td(data-aos="fade-down") Representa un solo símbolo.
-                      td(data-aos="fade-down") 'A', '9'
-                    tr
-                      td(data-aos="fade-down") Cadena (string)
-                      td(data-aos="fade-down") Representa texto o conjunto de caracteres.
-                      td(data-aos="fade-down") "Hola mundo"
+            .tabla-a.color-acento-contenido
+              table
+                thead
+                  tr
+                    th(data-aos="fade-down")(style= "width: 30%; background-color: #FFEEBC;") Tipo de dato
+                    th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Descripción
+                    th(data-aos="fade-down")(style= "width: 35%; background-color: #FFEEBC;") Ejemplo
+                tbody
+                  tr
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Entero (int)
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa números sin decimales.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") 10, -5, 0
+                  tr
+                    td(data-aos="fade-down") Real (float/double)
+                    td(data-aos="fade-down") Representa números con decimales.
+                    td(data-aos="fade-down") 3.14, -2.5
+                  tr
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Booleano (bool)
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa valores lógicos.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Verdadero / Falso
+                  tr
+                    td(data-aos="fade-down") Carácter (char)
+                    td(data-aos="fade-down") Representa un solo símbolo.
+                    td(data-aos="fade-down") 'A', '9'
+                  tr
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Cadena (string)
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa texto o conjunto de caracteres.
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") "Hola mundo"
         p.mb-4(data-aos="fade-down") Para un mejor entendimiento de esta clasificación de datos, se representan de la siguiente manera:
-        .row.justify-content-center.mb-4.figura-flujo-ajuste(data-aos="flip-up")
-          .col-lg-12.col-12
+        .row.justify-content-center.mb-4(data-aos="flip-up")
+          .col.col-12
             .titulo-sexto.color-acento-contenido
               h5 Figura 2.
               span Representación de la clasificación de tipos de datos
+          .row.justify-content-center
+            .col-12
+              figure.desktop
+                img(src='@/assets/curso/tema3/img17.svg', alt='Figura 2 que muestra un esquema jerárquico de la clasificación de los tipos de datos, diferenciando entre tipos primitivos y no primitivos. En los tipos primitivos se incluyen los no numéricos, como bool y char, y los numéricos, que se subdividen en enteros (byte, short, int y long) y de punto flotante (float y double). Asimismo, se presentan los tipos no primitivos, como clases, cadenas de texto (string), arreglos (arrays), objetos (objects) e interfaces, organizados de forma estructurada para facilitar su comprensión.')
           .col-12
-            figure.desktop.mb-0
-              img(src='@/assets/curso/tema3/img17.svg', alt='Figura 2 que muestra un esquema jerárquico de la clasificación de los tipos de datos, diferenciando entre tipos primitivos y no primitivos. En los tipos primitivos se incluyen los no numéricos, como bool y char, y los numéricos, que se subdividen en enteros (byte, short, int y long) y de punto flotante (float y double). Asimismo, se presentan los tipos no primitivos, como clases, cadenas de texto (string), arreglos (arrays), objetos (objects) e interfaces, organizados de forma estructurada para facilitar su comprensión.')
-          .col-12
-            figure.movil.mb-0
+            figure.movil
               img(src='@/assets/curso/tema3/img18.svg', alt='Figura 2 que muestra un esquema jerárquico de la clasificación de los tipos de datos, diferenciando entre tipos primitivos y no primitivos. En los tipos primitivos se incluyen los no numéricos, como bool y char, y los numéricos, que se subdividen en enteros (byte, short, int y long) y de punto flotante (float y double). Asimismo, se presentan los tipos no primitivos, como clases, cadenas de texto (string), arreglos (arrays), objetos (objects) e interfaces, organizados de forma estructurada para facilitar su comprensión.')
     .row.justify-content-center.align-items-strench.mb-4
       .col-lg-9.col-12.order-lg-2.order-2
@@ -287,24 +286,21 @@
         p.mb-4(data-aos="fade-down") El uso correcto de los tipos de datos permite:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Evitar errores en operaciones matemáticas o lógicas.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Optimizar el uso de memoria del sistema.
           li
-            i.fas.fa-laptop-code
+            i.fas.fa-computer
             p.mb-0 Garantizar la coherencia en el procesamiento de información.
           li
-            i.fas.fa-laptop-code
-            p.mb-0 Facilitar la comprensión y mantenimiento del código.  
+            i.fas.fa-computer
+            p.mb-0 Facilitar la comprensión y mantenimiento del código.
+        p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados de tipología de datos, se recomienda revisar el siguiente video, en el cual se muestra la ejecución de un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la visualización de resultados, facilitando la comprensión práctica del uso de distintos tipos de datos dentro de un programa:   
       .col-lg-3.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure.mb-0
           img(src='@/assets/curso/tema3/img20.svg', alt='')
-    .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
-        .cajon.cajon.C07.color-secundario.px-4.py-3
-          p.mb-0(data-aos="fade-down") Como complemento a los conceptos abordados de tipología de datos, se recomienda revisar el siguiente video, en el cual se muestra la ejecución de un algoritmo básico que ejemplifica la definición de variables, la asignación de valores y la visualización de resultados, facilitando la comprensión práctica del uso de distintos tipos de datos dentro de un programa:
     .row.justify-content-center.align-items-center           
       .col.col-lg-12
         figure

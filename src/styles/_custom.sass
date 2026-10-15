@@ -2,51 +2,35 @@
   &-1
     animation: engrane 4s linear infinite  // Cambiado a rotación continua
     position: absolute
-    top: 5%
-    right: 7%
+    top: 15%
+    right: 90%
     transform-origin: center // Asegura que gire sobre su propio centro
-    z-index: -1
   &-2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 65%
-    right: 75%
+    top: 5%
+    right: 5%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 62%
+    right: 70%
 
 .banner-principal__img
   z-index: 1
 
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
+// Animación para giro
 @keyframes engrane
   0%
     transform: rotate(0deg)
   100%
     transform: rotate(360deg)
-
-@-webkit-keyframes rotation 
-  from 
-    -webkit-transform: rotate(0deg)  
-  to 
-    -webkit-transform: rotate(359deg)
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
-
-@keyframes float2
-  0%
-    transform: translateX(20px)
-
-  100%
-    transform: translateX(0px)
-
-@keyframes scale
-  0%
-    transform: scale(1)
-
-  100%
-    transform: scale(1.2)
   
 // Modulo versión escritorio/movil
 @media (min-width:1400px)
@@ -65,8 +49,10 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+
 .banner-principal__row .banner-principal__img
-  width: 485px !important  
+  width: 500px !important  
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: black !important
 
@@ -75,6 +61,10 @@
 
 .barra-avance__boton--regresar span
   color: $white !important
+
+.banner-principal
+  .banner-principal__row
+    transform: translateY(35px)
 
 .banner-principal
   .container.tarjeta
@@ -103,7 +93,7 @@ figcaption
 .cajon.C01
   background-color: #D5F4F8
 .cajon.C02
-  background-color: #C9E8F7
+  background-color: #C0F6F2
 .cajon.C03
   background-color: #FFF7DF
 .cajon.C04
@@ -113,15 +103,13 @@ figcaption
 .cajon.C06
   background-color: #F1E6EF
 .cajon.C07
-  background-color: #C0F6F2
+  background-color: #C9E8F7
 .cajon.C08
   background-color: #C0F6F2
 .cajon.C09
   background-color: #5AF6EA
 .cajon.C10
   background-color: #68C6EA
-.cajon.C11
-  background-color: #7DD3FF
 //- Modulo tarjetas
 .tarjeta--tabla
   background-color: #CFE8FF
@@ -134,7 +122,7 @@ figcaption
 .tarjeta--C03
   background-color: #F1E6EF
 .tarjeta--C04
-  background-color: #C0F6F2
+  background-color: #C9E8F7
 .tarjeta--C05
   background-color: #C9E8F7
 .tarjeta--C06
@@ -264,9 +252,9 @@ figcaption
 .linea-tiempo-d.color-acento-botones.especial
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
-      background-color: #C0F6F2 !important 
+      background-color: #C9E8F7 !important 
     .tarjeta.tarjeta--gris
-      background-color: #C0F6F2
+      background-color: #C9E8F7
       span
         color: $black
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
@@ -335,13 +323,13 @@ figcaption
 thead
   tr
     th
-      background-color: #FFEEBC
+      background-color: #FFF7DF
 .tabla-a.color-acento-contenido
   td
     text-align: left
 .tabla-a.color-primario
   th
-    background-color: #FFEEBC
+    background-color: #FFF6E2
   td
     text-align: left
 .tabla-a.responsive
@@ -375,8 +363,8 @@ thead
   border: none
   color: #fff
 .pasos-b__header__item--before .pasos-b__header__item__dot 
-  background-color: #68EAE0
-  border: #68EAE0
+  background-color: #6CB9FF
+  border: #6CB9FF
 .pasos-b__header__item--before .pasos-b__header__item__dot i
   color: #12263F
 .pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
@@ -410,7 +398,7 @@ thead
 //- Modulo acordions
 .acordion
   .acordion__activo
-    background-color: #C0F6F2
+    background-color: #C9E8F7
   .acordion__accion__btn--b
     background-color: #AE0000  
     border: none
@@ -525,7 +513,7 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
       display: flex !important
       align-items: center !important
       justify-content: center !important
-      background-color: #68EAE0
+      background-color: #68C6EA
 
       img
         width: 70px !important
@@ -620,127 +608,8 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
           font-size: .95rem
           line-height: 1.35
 
-.bloque-c08-ajuste
-  --bs-gutter-x: 0
-  max-width: 980px
-  margin-left: auto !important
-  margin-right: auto !important
-  align-items: stretch !important
-
-  > .col:first-child
-    padding-left: 0 !important
-    padding-right: 0 !important
-    margin-right: 0 !important
-    flex: 0 0 105px !important
-    max-width: 105px !important
-    display: flex !important
-    align-items: stretch !important
-
-    figure
-      width: 100%
-      height: 100%
-      min-height: 90px
-      margin: 0 !important
-      display: flex !important
-      align-items: center !important
-      justify-content: center !important
-      background-color: #68C6EA
-
-      img
-        width: 70px !important
-        max-width: 70px !important
-        height: auto !important
-        display: block
-        margin: 0 !important
-
-  > .col:nth-child(2)
-    padding-left: 0 !important
-    padding-right: 0 !important
-    flex: 1 1 auto !important
-    max-width: none !important
-    display: flex !important
-
-    .cajon.C08
-      width: 100%
-      min-height: 90px
-      height: auto
-      display: flex
-      align-items: center
-      padding-top: 1rem !important
-      padding-bottom: 1rem !important
-
-      p
-        margin-bottom: 0 !important
-        line-height: 1.45
-
-@media (min-width: 992px) and (max-width: 1500px)
-  .bloque-c08-ajuste
-    max-width: 850px
-
-    > .col:first-child
-      flex: 0 0 95px !important
-      max-width: 95px !important
-
-      figure
-        min-height: 90px
-
-        img
-          width: 62px !important
-          max-width: 62px !important
-
-    > .col:nth-child(2)
-      .cajon.C08
-        min-height: 90px
-        padding-left: 1.5rem !important
-        padding-right: 1.5rem !important
-
-.bloque-c08-sin-img-responsive
-  .cajon.C08
-    background-color: #68C6EA !important
-
-  > .col:first-child
-    figure
-      background-color: #68C6EA !important
-
-  > .col:nth-child(2)
-    .cajon.C08
-      background-color: #68C6EA !important
-
-@media (max-width: 991.98px)
-  .bloque-c08-sin-img-responsive
-    > .col:first-child
-      display: none !important
-
-    > .col:nth-child(2)
-      flex: 0 0 100% !important
-      max-width: 100% !important
-      width: 100% !important
-      padding-left: 0 !important
-      padding-right: 0 !important
-
-      .cajon.C08
-        width: 100% !important
-        min-height: auto !important
-        padding: 1rem 1.5rem !important
-        display: flex !important
-        align-items: center !important
-
-        p
-          margin-bottom: 0 !important
-          line-height: 1.4
-
-@media (max-width: 575.98px)
-  .bloque-c08-sin-img-responsive
-    > .col:nth-child(2)
-      .cajon.C08
-        padding: .9rem 1.2rem !important
-
-        p
-          font-size: .95rem
-          line-height: 1.35
-
 .tabla-a.color-acento-contenido thead
-  border-color: #FFEEBC !important
+  border-color: #FFEEBC
 
 .BG06
   background-image: url("../assets/curso/fondo-slyder.png")
@@ -956,7 +825,7 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
         margin: 0 !important
 
   .cajon.C10
-    background-color: #68EAE0
+    background-color: #68C6EA
     height: 100%
     display: flex
     flex-direction: column
@@ -1010,39 +879,3 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
       width: 100%
       margin-left: 0 !important
       margin-right: 0 !important
-
-.config-tabla
-  table
-    width: 100%
-
-  thead
-    tr
-      background-color: #FFEEBC !important
-
-  tbody
-    tr
-      background-color: #FFFFFF
-
-      &:nth-child(odd)
-        background-color: #F0F8FF !important
-
-  th
-    color: #12263F
-    font-weight: 700
-    text-align: center
-    vertical-align: middle
-
-  td
-    color: #12263F
-    vertical-align: middle
-
-    b
-      font-weight: 700
-
-@media (max-width: 575.98px)
-  .config-tabla
-    th,
-    td
-      font-size: .9rem
-      line-height: 1.35
-      padding: .7rem .6rem

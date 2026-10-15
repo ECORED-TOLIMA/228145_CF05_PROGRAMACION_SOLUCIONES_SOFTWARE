@@ -114,9 +114,9 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema1/img15.png', alt='')
+          img(src='@/assets/curso/tema1/img15.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
-        .cajon.cajon.C02.color-primario.p-4.mb-4
+        .cajon.cajon.C01.color-primario.p-4.mb-4
           p.mb-0(data-aos="fade-down") En primer lugar, el pensamiento algorítmico implica la capacidad de descomponer un problema en partes más pequeñas y manejables, facilitando su comprensión y tratamiento. Este enfoque permite identificar claramente los datos de entrada, los procesos necesarios y los resultados esperados.
         p.mb-4(data-aos="fade-down") Asimismo, se promueve la identificación de patrones y la abstracción de información relevante, lo que contribuye a simplificar problemas complejos y a diseñar soluciones reutilizables. Esta habilidad es clave para optimizar procesos y mejorar la eficiencia en la resolución de situaciones similares.
         .row.mb-0
@@ -208,7 +208,7 @@
           img(src='@/assets/curso/tema1/img27.svg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") La lógica matemática y la lógica proposicional constituyen el fundamento teórico que permite estructurar el razonamiento dentro del diseño de algoritmos y la programación. Su aplicación facilita la construcción de soluciones coherentes, basadas en reglas claras que permiten analizar situaciones, establecer relaciones y tomar decisiones de manera precisa.
-        .cajon.cajon.C02.color-primario.px-4.py-3
+        .cajon.cajon.C08.color-primario.px-4.py-3
           p.mb-0(data-aos="fade-down") A diferencia de otros enfoques intuitivos, la lógica proposicional se basa en el uso de proposiciones, entendidas como enunciados que pueden ser verdaderos o falsos, lo que permite evaluar condiciones y determinar el comportamiento de un algoritmo frente a diferentes escenarios. Este enfoque es esencial para la formulación de estructuras condicionales y el control del flujo de ejecución en los programas.
     p.mb-4(data-aos="fade-down") Estos fundamentos se apoyan en una serie de elementos que garantizan la consistencia del razonamiento lógico, entre ellos:
     .cajon.cajon.C06.p-5.mb-4
@@ -221,14 +221,14 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.5 Tipos de algoritmos
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0.d-none.d-lg-block
+      .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema1/img34.png', alt='')
-      .col.col-lg-7.col-12.order-lg-1.order-2
+          img(src='@/assets/curso/tema1/img34.jpg', alt='')
+      .col.col-lg-8.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Los tipos de algoritmos permiten clasificar las soluciones de acuerdo con su estructura, comportamiento y forma de ejecución, facilitando la selección de la estrategia más adecuada para resolver un problema. Esta clasificación contribuye a comprender cómo se organizan las instrucciones y cómo responde un algoritmo ante diferentes escenarios.
         .cajon.cajon.C02.color-primario.p-4.mb-0
           p.mb-0(data-aos="fade-down") A diferencia de un enfoque único, los algoritmos pueden diseñarse bajo distintas formas según la lógica que se requiera implementar, lo que permite adaptarlos a problemas simples o complejos. Esta diversidad favorece la eficiencia, la claridad y la optimización de las soluciones en programación.
-    p.mb-4.text-center(data-aos="fade-down") Estos tipos se agrupan en diferentes categorías que orientan su aplicación, entre ellos:
+    p.mb-4(data-aos="fade-down") Estos tipos se agrupan en diferentes categorías que orientan su aplicación, entre ellos:
     .row.justify-content-center.mb-4.mb-lg-0
       .col-12.movil
         figure
@@ -238,25 +238,25 @@
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/tema1/img36.svg', alt="")
-          .tarjeta.color-acento-contenido.p-3(x="27%" y="9%" numero="+")
-            p.mb-0 Ejecutan instrucciones en un orden lineal, sin interrupciones ni evaluaciones de condiciones.
-          .tarjeta.color-acento-contenido.p-3(x="60%" y="9%" numero="+")
-            p.mb-0 Incorporan decisiones que permiten seleccionar diferentes caminos según se cumplan o no ciertas condiciones.
-          .tarjeta.color-acento-contenido.p-3(x="93%" y="9%" numero="+")
-            p.mb-0 Ejecutan un conjunto de instrucciones varias veces mediante estructuras de repetición.
+          .tarjeta.color-acento-contenido.p-3(x="27%" y="4%" numero="+")
+            p Ejecutan instrucciones en un orden lineal, sin interrupciones ni evaluaciones de condiciones.
+          .tarjeta.color-acento-contenido.p-3(x="64.5%" y="4%" numero="+")
+            p Incorporan decisiones que permiten seleccionar diferentes caminos según se cumplan o no ciertas condiciones.
+          .tarjeta.color-acento-contenido.p-3(x="101.8%" y="4%" numero="+")
+            p Ejecutan un conjunto de instrucciones varias veces mediante estructuras de repetición.
           .tarjeta.color-acento-contenido.p-3(x="27%" y="64.5%" numero="+")
-            p.mb-0 Se definen a sí mismos para resolver problemas dividiéndolos en subproblemas más pequeños.
-          .tarjeta.color-acento-contenido.p-3(x="60%" y="64.5%" numero="+")
-            p.mb-0 Describen procesos sin necesidad de cálculos numéricos, centrados en acciones o pasos descriptivos.
-          .tarjeta.color-acento-contenido.p-3(x="93%" y="64.5%" numero="+")
-            p.mb-0 Implican operaciones matemáticas y cálculos para obtener resultados numéricos.
+            p Se definen a sí mismos para resolver problemas dividiéndolos en subproblemas más pequeños.
+          .tarjeta.color-acento-contenido.p-3(x="64.5%" y="64.5%" numero="+")
+            p Describen procesos sin necesidad de cálculos numéricos, centrados en acciones o pasos descriptivos.
+          .tarjeta.color-acento-contenido.p-3(x="101.8%" y="64.5%" numero="+")
+            p Implican operaciones matemáticas y cálculos para obtener resultados numéricos.
         p.mb-4(data-aos="fade-down") En el contexto de la programación, el reconocimiento de los tipos de algoritmos permite diseñar soluciones más adecuadas, optimizar recursos y mejorar la organización lógica de los procesos, garantizando resultados eficientes y acordes a los requerimientos planteados.
         .row.justify-content-center.mb-4
           .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema1/img37.svg', alt='')
           .col.col-lg-10.col-12.order-lg-2.order-2
-            .cajon.cajon.C11.px-4.py-3
+            .cajon.cajon.C09.px-4.py-3
               p.mb-0(data-aos="fade-down") Además de su clasificación básica, los algoritmos pueden analizarse desde diferentes enfoques que permiten comprender mejor su comportamiento, eficiencia y aplicabilidad en la resolución de problemas. Esta ampliación facilita seleccionar la estructura más adecuada según el contexto y los requerimientos planteados.
         p.mb-4(data-aos="fade-down") Desde el punto de vista de su comportamiento y diseño, los algoritmos también pueden clasificarse de la siguiente manera:
     .row.BG04.justify-content-center.px-md-5.px-4.mb-4

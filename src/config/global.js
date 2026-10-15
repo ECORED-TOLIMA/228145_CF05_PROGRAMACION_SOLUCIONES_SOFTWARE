@@ -14,6 +14,10 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -353,11 +357,6 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador de contenidos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -378,17 +377,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'María Fernanda Pineda Mora',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

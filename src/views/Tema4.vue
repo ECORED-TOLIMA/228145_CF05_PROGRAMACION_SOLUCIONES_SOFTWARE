@@ -22,18 +22,19 @@
     .row.justify-content-center.mb-4
       .col.col-12
         p.mb-4(data-aos="fade-down") A continuación, se presentan las principales estructuras utilizadas en la programación y sus componentes esenciales:
-        .row.justify-content-center.mb-0.figura-flujo-ajuste(data-aos="flip-up")
-          .col-lg-12.col-12
-            .titulo-sexto.color-acento-contenido
+        .row.justify-content-center.mb-0(data-aos="flip-up")
+          .col.col-12
+            .titulo-sexto.color-primario
               h5 Figura 3.
               span Clasificación de las estructuras de control y datos en programación
+          .row.justify-content-center
+            .col-12
+              figure.desktop
+                img(src='@/assets/curso/tema4/img03.svg', alt='Figura 3 que presenta un esquema de las estructuras de programación, donde se distinguen las estructuras de control, incluyendo la estructura secuencial, las estructuras condicionales y las estructuras de iteración y las estructuras de datos, representadas por vectores y matrices, mostrando de forma jerárquica la organización básica de los programas.')
           .col-12
-            figure.desktop.mb-0
-              img(src='@/assets/curso/tema4/img03.svg', alt='Figura 3 que presenta un esquema de las estructuras de programación, donde se distinguen las estructuras de control, incluyendo la estructura secuencial, las estructuras condicionales y las estructuras de iteración y las estructuras de datos, representadas por vectores y matrices, mostrando de forma jerárquica la organización básica de los programas.')
-          .col-12
-            figure.movil.mb-0
+            figure.movil
               img(src='@/assets/curso/tema4/img04.svg', alt='Figura 3 que presenta un esquema de las estructuras de programación, donde se distinguen las estructuras de control, incluyendo la estructura secuencial, las estructuras condicionales y las estructuras de iteración y las estructuras de datos, representadas por vectores y matrices, mostrando de forma jerárquica la organización básica de los programas.')
-    p.mb-4.text-center(data-aos="fade-down") Las estructuras de programación se organizan en dos grandes grupos:
+    p.mb-4(data-aos="fade-down") Las estructuras de programación se organizan en dos grandes grupos:
     .row.justify-content-center.mb-4
       .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
@@ -54,7 +55,7 @@
               h4 Estructuras de datos
               p.mb-0 Facilitan el almacenamiento y la organización de múltiples valores, como los vectores y las matrices, permitiendo un acceso ordenado y eficiente a la información.
               br
-    .row.justify-content-center.align-items-center.mb-0.bloque-c08-ajuste.bloque-c08-sin-img-responsive
+    .row.justify-content-center.align-items-center.mb-0.bloque-c07-ajuste.bloque-c07-sin-img-responsive
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img07.svg', alt='')
@@ -75,23 +76,23 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .tarjeta--container.row
-          .col-xl.col-lg-6.tarjeta.tarjeta--C14.p-5
+          .col-xl.col-lg-6.tarjeta.tarjeta--C12.p-5
             .row.justify-content-center.mb-3
-              .col-lg-6.col-4
+              .col-lg-5.col-4
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/tema4/img09.svg', alt='')(style="width: 85%")
             h4.text-center Entrada de datos
             p.mb-0(data-aos="fade-down") Consiste en la recolección de la información necesaria para ejecutar el algoritmo, ya sea mediante lectura de datos o asignación inicial de valores.
           .col-xl.col-lg-6.tarjeta.tarjeta--C13.p-5
             .row.justify-content-center.mb-3
-              .col-lg-6.col-4
+              .col-lg-5.col-4
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/tema4/img10.svg', alt='')(style="width: 85%")
             h4.text-center Procesamiento
             p.mb-0(data-aos="fade-down") Corresponde a la ejecución de operaciones o cálculos que transforman los datos de entrada en resultados, siguiendo un orden lógico definido.
-          .col-xl.col-lg-6.tarjeta.tarjeta--C12.p-5
+          .col-xl.col-lg-6.tarjeta.tarjeta--C14.p-5
             .row.justify-content-center.mb-3
-              .col-lg-6.col-4
+              .col-lg-5.col-4
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/tema4/img11.svg', alt='')(style="width: 85%")
             h4.text-center Salida de resultados
@@ -112,21 +113,21 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img13.svg' alt='')
+          img(src='@/assets/curso/tema4/img13.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Evaluación de condiciones
               p.text-center Consiste en analizar una expresión lógica que puede resultar verdadera o falsa, determinando el camino que seguirá el algoritmo.
       .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img14.svg' alt='')
+          img(src='@/assets/curso/tema4/img14.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Toma de decisiones
               p.text-center Permite seleccionar entre una o varias alternativas de ejecución, utilizando estructuras como si... entonces... sino.
       .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img15.svg' alt='')
+          img(src='@/assets/curso/tema4/img15.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Ejecución de bloques de instrucciones
@@ -155,49 +156,49 @@
               ul.lista-ul.mb-0
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Establecimiento del criterio que controla la repetición.
+                  p Establecimiento del criterio que controla la repetición.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Puede ser una condición lógica (while) o un rango (for).
+                  p Puede ser una condición lógica (while) o un rango (for).
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Inicialización de variables de control.
+                  p Inicialización de variables de control.
           .row(numero="2" titulo="Ejecución del ciclo")
             .col-12.mb-4.mb-md-0
               ul.lista-ul.mb-0
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Desarrollo de las instrucciones dentro del ciclo.
+                  p Desarrollo de las instrucciones dentro del ciclo.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Procesamiento de datos en cada iteración.
+                  p Procesamiento de datos en cada iteración.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Aplicación de operaciones definidas en el algoritmo.
+                  p Aplicación de operaciones definidas en el algoritmo.
           .row(numero="3" titulo="Actualización de variables")
             .col-12.mb-4.mb-md-0
               ul.lista-ul.mb-0
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Modificación de contadores o variables de control.
+                  p Modificación de contadores o variables de control.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Ajuste de la condición para avanzar en el ciclo.
+                  p Ajuste de la condición para avanzar en el ciclo.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Preparación para la siguiente iteración.
+                  p Preparación para la siguiente iteración.
           .row(numero="4" titulo="Finalización del ciclo")
             .col-12.mb-4.mb-md-0
               ul.lista-ul.mb-0
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Evaluación de la condición de salida.
+                  p Evaluación de la condición de salida.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Terminación del ciclo cuando no se cumple la condición.
+                  p Terminación del ciclo cuando no se cumple la condición.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Continuación del flujo normal del algoritmo.
+                  p Continuación del flujo normal del algoritmo.
       .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema4/img17v.png', alt='')
